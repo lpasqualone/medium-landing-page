@@ -142,7 +142,7 @@ nav ul li:hover {
     display: flex;
 }
 
-.trending-section img{
+.trending-heading img{
     width: 26px;
     margin-left: 20px;
 }
@@ -179,6 +179,7 @@ nav ul li:hover {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color:rgb(85, 85, 85);
+    vertical-align: top;
 }
 
 .author {
@@ -188,6 +189,7 @@ nav ul li:hover {
     color:rgb(44, 44, 44);
     padding: 0 3px;
     font-weight: 600;
+    vertical-align: top;
 }
 
 .grid-card p{
@@ -229,20 +231,17 @@ nav ul li:hover {
     margin: 20px 0;
 }
 
-.article-card .author{
-    padding-bottom: 10px;
-}
-
 .article-card span{
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color:rgb(85, 85, 85);
+    vertical-align: top;
 }
 
 .article-card h2{
     padding: 10px 0 5px 0;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: -0.3px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -282,14 +281,28 @@ nav ul li:hover {
 
 .article-card img{
     width: 200px;
-    height: 140px;
+    max-height: 140px;
     object-fit: cover;
     margin: 0 30px;
 }
 
+.card-text img {
+    width: 25px !important;
+    margin: 0 !important;
+}
+
 .container-menu {
     max-width: 430px;
-    margin: 0;
+    margin: 0 20px;
+
+}
+
+.grid-menu {
+    max-width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .container-menu h4{
@@ -312,6 +325,8 @@ nav ul li:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+
 .row-one {
     display: grid;
     grid-template-columns: 70px 120px 120px;
@@ -330,6 +345,8 @@ nav ul li:hover {
     text-align: center;
     margin-bottom: 30px;
 }
+
+*/
 
 .info-links{
     border-top: 1px solid #d2d2d2;
