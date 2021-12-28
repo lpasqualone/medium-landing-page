@@ -9,7 +9,7 @@ Self-assigned project for practicing more complex, high-end webpage building -
 Create a visual clone of https://medium.com/ from scratch, including navbar, header, articles and tags.
 
 
-[Live Demo]() 👈
+[Live Demo](https://lpasqualone.github.io/medium-landing-page/) 👈
 
 ### **Emphasized Concepts**
 
